@@ -1,0 +1,176 @@
+body {
+    background-image: url("https://i.imgur.com/hkYvUzd.png");
+    background: cover;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#container {
+    background-color: rgba(245, 206, 79, 0.7);
+    width:auto;
+    margin: 20px 50px 50px 50px;
+}
+
+#title {
+    font-size: 80px;
+    color: rgb(131, 99, 20);
+    text-align: center;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+}
+
+#subtitle {
+    text-align: center;
+    margin-top: -40px;
+    color: #222020;
+}
+
+#image {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 16px 15px 21px 5px rgba(46,44,44,0.75);
+}
+figcaption {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#time-line {
+    font-style: italic;
+    font-size: 40px;
+    color: 	rgb(131, 99, 20);
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.5);
+    border-radius: 12px;
+    border: solid;
+    border-color: rgb(131, 99, 20);
+    border-bottom: none;
+}
+
+#game-list {
+    background-color: rgba(253, 253, 253, 0.5);
+    border-radius: 12px;
+    margin-top: -40px;
+    padding: 20px 60px;
+}
+ul {
+    list-style-image: url("hearticon.png");
+    font-size: 25px;
+    border: solid;
+    border-color: rgb(131, 99, 20)
+}
+li {
+    border: solid;
+    border-color: rgb(131, 99, 20);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+li img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 16px 5px rgba(0,0,0,0.75);
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+}
+li img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+hr {
+    width: 80%;
+    margin-bottom: 30px;
+    color: rgb(131, 99, 20);
+}
+footer {
+    text-align: end;
+    font-size: 16px;
+    padding: 20px;
+}
+footer a:hover {
+    color: #c82222;
+}
+
+@media (max-width: 768px), (max-width: 900px) {
+    #title {
+        font-size: 60px;
+        margin-bottom: 55px;
+    }
+    #subtitle {
+        font-size: 20px;
+    }
+    #image {
+        width: 300px;
+    }
+    figcaption {
+        font-size: 15px;
+    }
+    #time-line {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    #game-list {
+        padding: 10px;
+    }
+    ul {
+        font-size: 17px;
+    }
+    li img {
+        width: 200px;
+    }
+    li img:hover {
+        transform: scale(1.1);
+    }
+    p {
+        font-size: 22px;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1080px) {
+    #game-list {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    #game-list {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px){
+    #container {
+      margin: 20px 20px 50px 20px;
+    }
+    #title {
+      font-size: 40px;
+    }
+    #subtitle {
+        font-size: 17px;
+    }
+    #image {
+        width: 220px;
+    }
+    #time-line {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    #game-list {
+        padding: 15px;
+    }
+    ul {
+        list-style: none;
+    }
+  }
